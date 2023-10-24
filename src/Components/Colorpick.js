@@ -110,9 +110,15 @@ function Colourpick() {
             style={{ backgroundColor: "rgb(251, 212, 0)" }}
             onClick={() => handleColor("rgb(251, 212, 0)")}
           ></div>
+          <div
+            class="colorbox border border-dark border-1"
+            style={{ backgroundColor: "rgb(0, 0, 0)" }}
+            onClick={() => handleColor("rgb(0, 0, 0)")}
+          ></div>
         </div>
       )}
     </div>
   );
 }
 export default Colourpick;
+
